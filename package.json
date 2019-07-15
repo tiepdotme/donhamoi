@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-preset-env": "^7.5.0",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-0": "^6.5.0",
     "classnames": "^2.1.2",

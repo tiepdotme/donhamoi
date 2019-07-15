@@ -1,6 +1,6 @@
 var rucksack = require('rucksack-css')
 var lost = require('lost')
-var cssnext = require('postcss-cssnext')
+var cssnext = require('postcss-preset-env')
 
 exports.modifyWebpackConfig = function(config, env) {
 
@@ -18,7 +18,7 @@ exports.modifyWebpackConfig = function(config, env) {
             lost(),
             rucksack(),
             cssnext({
-                browsers: ['>1%', 'last 2 versions']
+                browsers: ['last 2 versions']
             })
         ]
     })
