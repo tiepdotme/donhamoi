@@ -1,6 +1,6 @@
 import React from 'react'
 import { prefixLink } from 'gatsby-helpers'
-const config = require('config');
+config = require('../config/config');
 import Ink from 'react-ink'
 import HeaderLogo from '../HeaderLogo'
 import MainMenu from '../MainMenu'

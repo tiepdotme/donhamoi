@@ -1,7 +1,7 @@
 import React from 'react'
 import { RouteHandler, Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
-const config = require('config');
+config = require('../config/config');
 import Ink from 'react-ink'
 
 import './style.scss'
