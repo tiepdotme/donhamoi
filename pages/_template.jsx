@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import Helmet from 'react-helmet';
-import { config } from 'config'
+const config = require('./node_modules/config');
 
 class Template extends React.Component {
     render() {
