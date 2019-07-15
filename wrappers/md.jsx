@@ -11,7 +11,7 @@ import ArtistPage from '../components/ArtistPage'
 import EventList from '../components/EventList'
 import EventPage from '../components/EventPage'
 import SideBar from '../components/SideBar'
-const config = require('./node_modules/config');
+const config = require('config');
 
 import './style.scss'
 

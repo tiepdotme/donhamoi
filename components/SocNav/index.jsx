@@ -1,6 +1,6 @@
 import React from 'react'
 import { prefixLink } from 'gatsby-helpers'
-const config = require('./node_modules/config');
+const config = require('config');
 import Ink from 'react-ink'
 
 import './style.scss'
