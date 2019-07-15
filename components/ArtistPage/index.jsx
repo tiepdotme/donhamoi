@@ -3,7 +3,7 @@ import { RouteHandler, Link } from 'react-router'
 import DocumentTitle from 'react-document-title'
 import { prefixLink } from 'gatsby-helpers'
 import access from 'safe-access'
-config = require('../config');
+import { config } from 'config'
 import ArtistList from '../ArtistList'
 
 import './style.scss'

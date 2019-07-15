@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 import DocumentTitle from 'react-document-title'
-config = require('../config');
+import { config } from 'config'
 
 import './style.scss'
 
